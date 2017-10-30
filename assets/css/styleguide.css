@@ -1444,7 +1444,7 @@ label {
   display: block;
   margin-top: 1.5rem;
   font-size: 13px;
-  max-width: 46rem;
+  max-width: 56rem;
 }
 
 textarea {
@@ -4809,4 +4809,18 @@ img.logo-size {
 .shaded { 
   background-color: #e6e6e6; 
   border-top: 1px solid #b3b3b3;
+}
+
+.inset-box {
+  padding: 2% 4% 6% 8%;
+  border: 1px solid #b3b3b3;
+  margin: 4% 20%;
+}
+
+.pad-top {
+  padding-top: 3%;
+}
+
+.pad-top-3x {
+  padding-top: 9%;
 }

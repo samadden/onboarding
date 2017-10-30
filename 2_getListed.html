@@ -7,8 +7,8 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
       <link rel="stylesheet" href="./assets/css/styleguide.css">
 
-    </head>
-    <body class="layout-demo">
+</head>
+<body class="layout-demo">
     <a class="usa-skipnav" href="https://standards.usa.gov/page-templates/docs/#main-content">Skip to main content</a>
     <header class="usa-header usa-header-extended" role="banner">
       <div class="usa-navbar">
@@ -23,20 +23,75 @@
 
   
 
-<div class="usa-grid usa-section usa-content usa-layout-docs" id="main-content">
-  <h3>Get your organization listed on guidestar.org and our giving platform partners.</h3>
-  <p>It's a three-step process:</p>
-  <ol>
-    <li><strong>Log in</strong> as yourself (create an account or sign in)</li>
-    <li>Tell us about your organization and <strong>upload official documents</strong> for review</li>
-    <li>Get approved to update &mdash; then you can <strong>update your nonprofit profile</strong> and share current information with our partner platforms</li>
-  </ol>
-  <div>
-     <a href="3a_createAccount.html" class="usa-button usa-button-big">Step 1: Create Account</a>
+  <div class="#">
+    <div class="centered">
+     <h3>Get your organization listed on guidestar.org and our giving platform partners.</h3>
+     <img class ="pad-top" src="./assets/img/0-progressBar.png" alt="Gather the info you need">
   </div>
-  <p><a href="#">or sign in</a>
 
-  
-</div>
+
+  <section class="inset-box">
+    <!-- <div>
+      <p>Let's make sure you have what you need for Step 1 - Get Listed on GuideStar:</p>
+      <p>First, you'll <strong>log in</strong> as yourself (create an account or sign in)</p>
+      <p>Then, you'll tell us about your organization and <strong>upload official documents</strong> for review</p>
+      <p>After our team approves you to update, then you can <strong>update your nonprofit profile</strong> to share current information with our partner platforms</p>
+    </div> -->
+
+    <div>
+      <h6>What you will need at your fingertips:</h6>
+      <h5>Do you have your organization's EIN?</h5>
+      <p class="usa-text-small">(NOT that of the parent/national/broader organization with which you may be affiliated)</p>
+        <input id="1" type="checkbox" name="website" value="1">
+        <label for="1">Yes, I have my organization's EIN </label>
+      <h5>Do you have your official documents ready to upload?</h5>
+      <p class="usa-text-small">See below for the specific details</p>
+        <input id="2" type="checkbox" name="website" value="2">
+        <label for="2">Yes, I have a <strong>Federal</strong> document that meets the requirements below</label>
+
+        <input id="3" type="checkbox" name="website" value="3">
+        <label for="3">Yes, I have a <strong>state / organization</strong> document that meets the requirements below</label>
+    </div>
+    <div class="pad-top-3x">
+      <a href="3a_createAccount.html" class="usa-button usa-button-big">Step 1: Create Account</a>
+        <p><a href="#">or sign in</a></p>
+    </div>
+
+  </section>
+
+  <hr>
+  <section class="usa-section inset">
+    <div class="usa-grid">
+      <h3>What documents do I need?</h3>
+      <section class="usa-grid usa-section row-divider">
+        <div class="usa-width-two-thirds">
+          <h6>Federal Documents</h6>
+          <p>A copy of a Federal IRS document that has <strong>the congregation’s name</strong> and <strong>EIN</strong> assigned to the organization (NOT your parent organization, if applicable).</p>
+          <p><strong>For example:</strong> Acceptable documents include, but are not limited to: </p>
+          <ol>
+            <li>Form 941 <strong>OR</strong></li>
+            <li>Payroll tax receipts <strong>OR</strong></li>
+            <li>EIN issuance letter <strong>OR</strong></li>
+            <li>Another document that has the congregation’s name and Federal EIN</li>
+          </ol>
+        </div>
+        <div class="usa-width-one-third">
+        </div>
+      </section>
+
+      <section class="usa-grid usa-section row-divider">
+          <div class="usa-width-two-thirds">
+            <h6>State / Religious Documents</h6>
+            <ol>
+              <li>The Church listing in the parent Church National Directory <strong>OR</strong></li>
+              <li>A copy of the State Registration <strong>OR</strong></li>
+              <li>A copy of the Sales &amp; Use Tax Exemption issued by the State</li>
+            </ol>
+          </div>
+          <div class="usa-width-one-third">
+          </div>
+      </section>
+    </div>
+  </section>
 
 </body></html>
